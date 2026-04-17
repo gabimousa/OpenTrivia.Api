@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="OpenTrivia.Api.AppHost/OpenTrivia.Api.AppHost.csproj" />
+  <Project Path="OpenTrivia.Api.ServiceDefaults/OpenTrivia.Api.ServiceDefaults.csproj" />
+  <Project Path="OpenTrivia.Api/OpenTrivia.Api.csproj" />
+</Solution>
