@@ -4,6 +4,9 @@ public class Get : IEndpoint
 {
     public void MapEndpoint(IEndpointRouteBuilder app)
     {
-        app.MapGet()
+        app.MapGet("Questions", () =>
+        {
+        })
+        .WithName("Questions");
     }
 }

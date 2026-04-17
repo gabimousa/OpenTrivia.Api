@@ -18,14 +18,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/questions", () =>
-{
-    var questions = [new {
-    }];
-    return questions;
-})
-.WithName("GetWeatherForecast");
-
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
