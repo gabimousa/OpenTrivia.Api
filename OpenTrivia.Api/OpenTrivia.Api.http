@@ -1,6 +1,21 @@
 @OpenTrivia.Api_HostAddress = http://localhost:5160
 
-GET {{OpenTrivia.Api_HostAddress}}/weatherforecast/
+GET {{OpenTrivia.Api_HostAddress}}/api/trivia/questions
 Accept: application/json
 
 ###
+
+GET {{OpenTrivia.Api_HostAddress}}/api/trivia/questions?amount=5&category=9&difficulty=easy&type=boolean
+Accept: application/json
+
+###
+
+POST {{OpenTrivia.Api_HostAddress}}/api/trivia/checkanswers
+content-type: application/json
+
+{
+  "sessionId": "[SESSION-ID]",
+  "answers": {
+    "[QUESTION-ID]": "[ANSWER]"
+  }
+}
