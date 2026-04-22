@@ -33,10 +33,10 @@ OpenTrivia.Api/
 |- OpenTrivia.Api.slnx             # Solution file
 ```
 
-If you also want to run the Angular UI, it lives in the sibling folder:
+If you also want to run the Angular UI, you can clone the OpenTrivia.Api repo:
 
 ```text
-../OpenTrivia.Frontend
+https://github.com/gabimousa/OpenTrivia.Frontend
 ```
 
 ## Getting Up and Running
@@ -97,12 +97,12 @@ Typical query parameters for `GET /api/trivia/questions`:
 
 ## Running the Frontend Together with the API
 
-The Angular frontend is in the sibling directory `C:\Dev\Temp\OpenTrivia\OpenTrivia.Frontend`.
+The Angular frontend can be cloned from `https://github.com/gabimousa/OpenTrivia.Frontend`.
 
 Start the API first, then in a second terminal:
 
 ```powershell
-cd C:\Dev\Temp\OpenTrivia\OpenTrivia.Frontend
+cd [PathToDirectory]\OpenTrivia.Frontend
 npm install
 npm start
 ```
