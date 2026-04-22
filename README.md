@@ -39,6 +39,8 @@ If you also want to run the Angular UI, you can clone the OpenTrivia.Api repo:
 https://github.com/gabimousa/OpenTrivia.Frontend
 ```
 
+See the readme of that reposiroty how to get up and running
+
 ## Getting Up and Running
 
 From the root of this repository:
